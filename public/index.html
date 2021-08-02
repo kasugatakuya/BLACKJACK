@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="js">
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-BF38WZB5TT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-BF38WZB5TT');
+  </script>
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BLACK JACK</title>
+  <link rel="stylesheet" href="style.css">
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2304980095444317" crossorigin="anonymous"></script>
+</head>
+<body>
+  <h1>BLACK JACK</h1>
+  <div class="field">
+    <div class="cont_box">
+      <div id="cont_area">
+        <div class="cont" id="cont_text">カウント<table id="cont" class="cont_text"><tr><th><td>0</td></th></tr></table></div>
+        <div class="probability" id="probability_text">10〜13<table id="probability" class="cont_text"></table></div>
+        <div><table id="content" class="content"></table></div>
+        <button id="show" class="switch" style="display: none;">表示</button>
+        <button id="hide" class="switch">非表示</button>
+      </div>
+    </div>
+    <div class="containar">
+      <div id="btn_box">
+        <button id="start" class="btn" onclick="test();">Start</button>
+        <button id="reset" class="reset">リセット</button>
+        <button id="exchange" class="reset">デッキ交換</button>
+        <button id="next" class="btn invalid">Next</button>
+      </div>
+      <div id="cp">
+        <p>【CP】 TOTAL：<span id="cp_sum1">0</span>or<span id="cp_sum11">0</span></p>
+        <div id="cp_cards_box"></div>
+      </div>
+      <div id="result"></div>
+      <div class="split_none" id="split_area">
+        <div id="split_user">
+          <p>【YOU】 TOTAL：<span id="split_user_sum1">0</span>or<span id="split_user_sum11">0</span></p>
+          <div id="split_user_cards_box"></div>
+        </div>
+        <div id="split_btn_box">
+          <button id="split_hit" class="btn">Hit</button>
+          <button id="split_stand" class="btn">Stand</button>
+        </div>
+      </div>
+      <div id="user">
+        <p>【YOU】 TOTAL：<span id="user_sum1">0</span>or<span id="user_sum11">0</span></p>
+        <div id="user_cards_box"></div>
+      </div>
+      <div id="btn_box">
+        <button id="double" class="btn invalid">Double</button>
+        <button id="hit" class="btn invalid">Hit</button>
+        <button id="stand" class="btn invalid">Stand</button>
+        <button id="split" class="btn invalid">split</button>
+      </div>
+      <div id="bet_box">
+        <button id="1" class="btn">1$</button>
+        <button id="5" class="btn">5$</button>
+        <button id="25" class="btn">25$</button>
+        <button id="50" class="btn">50$</button>
+        <button id="100" class="btn">100$</button>
+      </div>
+      <div><p>持ち金：<span id="money"></span>$</p></div>
+      <div><p>掛け金：<span id="bet"></span>$</p></div>
+    </div>
+    <div class="strategy_box">
+      <div id="strategy_area">
+        <img src="strategy.gif" alt="ベーシックストラテジー" class="strategy" id="strategy">
+        <div>
+          <button id="show2" class="switch" style="display: none;">表示</button>
+          <button id="hide2" class="switch">非表示</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="result_img"><p id="result"></p></div>
+  <script src="main.js"></script>
+  <script>
+    'use strict'
+    function test() {
+      gtag('event', 'download', {'event_category': '持ち金','event_label': 'ドル','value': '5000'}); 
+      gtag('event', 'download', {'event_category': '掛け金','event_label': 'ドル','value': '100'});
+      gtag('event', 'download', {'event_category': 'テスト','event_label': 'いろいろ','value': '様々'});
+    }
+  </script>
+</body>
+</html>
