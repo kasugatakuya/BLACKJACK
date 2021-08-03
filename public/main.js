@@ -241,7 +241,7 @@ function insurance_ok() {
       'ins3.jpg'
     ];
     let lose_img = array[Math.floor(Math.random() * array.length)];
-    img_element.src = lose_img; // 画像パス
+    img_element.src = './img/'+lose_img; // 画像パス
     img_element.alt = 'インシュランス成功'; // 代替テキスト
     img_element.width = 165; // 横サイズ（px）
     img_element.height = 130; // 縦サイズ（px）
@@ -272,7 +272,7 @@ function insurance_miss() {
       'lose11.jpg'
     ];
     let lose_img = array[Math.floor(Math.random() * array.length)];
-    img_element.src = lose_img; // 画像パス
+    img_element.src = './img/'+lose_img; // 画像パス
     img_element.alt = 'インシュランス失敗'; // 代替テキスト
     img_element.width = 165; // 横サイズ（px）
     img_element.height = 130; // 縦サイズ（px）
@@ -308,36 +308,36 @@ function win() {
       'win10.jpg'
     ];
     let win_img = array[Math.floor(Math.random() * array.length)];
-    img_element.src = win_img; // 画像パス
+    img_element.src = './img/'+win_img; // 画像パス
     img_element.alt = '勝ち'; // 代替テキスト
     img_element.width = 160; // 横サイズ(px)
     img_element.height = 130; // 縦サイズ(px)
-    img_zawa.src = 'zawa.jpg'; // 画像パス
+    img_zawa.src = './img/zawa.jpg'; // 画像パス
     img_zawa.alt = 'ざわ'; // 代替テキスト
     img_zawa.width = 25; // 横サイズ(px)
     img_zawa.height = 10; // 縦サイズ(px)
     img_zawa.className = 'zawa';
-    img_zawa2.src = 'zawa.jpg'; // 画像パス
+    img_zawa2.src = './img/zawa.jpg'; // 画像パス
     img_zawa2.alt = 'ざわ'; // 代替テキスト
     img_zawa2.width = 25; // 横サイズ(px)
     img_zawa2.height = 10; // 縦サイズ(px)
     img_zawa2.className = 'zawa2';
-    img_zawa3.src = 'zawa.jpg'; // 画像パス
+    img_zawa3.src = './img/zawa.jpg'; // 画像パス
     img_zawa3.alt = 'ざわ'; // 代替テキスト
     img_zawa3.width = 25; // 横サイズ(px)
     img_zawa3.height = 10; // 縦サイズ(px)
     img_zawa3.className = 'zawa3';
-    img_zawa4.src = 'zawa.jpg'; // 画像パス
+    img_zawa4.src = './img/zawa.jpg'; // 画像パス
     img_zawa4.alt = 'ざわ'; // 代替テキスト
     img_zawa4.width = 25; // 横サイズ(px)
     img_zawa4.height = 10; // 縦サイズ(px)
     img_zawa4.className = 'zawa4';
-    img_zawa5.src = 'zawa.jpg'; // 画像パス
+    img_zawa5.src = './img/zawa.jpg'; // 画像パス
     img_zawa5.alt = 'ざわ'; // 代替テキスト
     img_zawa5.width = 25; // 横サイズ(px)
     img_zawa5.height = 10; // 縦サイズ(px)
     img_zawa5.className = 'zawa5';
-    img_zawa6.src = 'zawa.jpg'; // 画像パス
+    img_zawa6.src = './img/zawa.jpg'; // 画像パス
     img_zawa6.alt = 'ざわ'; // 代替テキスト
     img_zawa6.width = 25; // 横サイズ(px)
     img_zawa6.height = 10; // 縦サイズ(px)
@@ -381,36 +381,36 @@ function lose() {
       'lose11.jpg'
     ];
     let lose_img = array[Math.floor(Math.random() * array.length)];
-    img_element.src = lose_img; // 画像パス
+    img_element.src = './img/'+lose_img; // 画像パス
     img_element.alt = '負け'; // 代替テキスト
     img_element.width = 165; // 横サイズ（px）
     img_element.height = 130; // 縦サイズ（px）
-    img_zawa.src = 'zawa.jpg'; // 画像パス
+    img_zawa.src = './img/zawa.jpg'; // 画像パス
     img_zawa.alt = 'ざわ'; // 代替テキスト
     img_zawa.width = 25; // 横サイズ(px)
     img_zawa.height = 10; // 縦サイズ(px)
     img_zawa.className = 'zawa';
-    img_zawa2.src = 'zawa.jpg'; // 画像パス
+    img_zawa2.src = './img/zawa.jpg'; // 画像パス
     img_zawa2.alt = 'ざわ'; // 代替テキスト
     img_zawa2.width = 25; // 横サイズ(px)
     img_zawa2.height = 10; // 縦サイズ(px)
     img_zawa2.className = 'zawa2';
-    img_zawa3.src = 'zawa.jpg'; // 画像パス
+    img_zawa3.src = './img/zawa.jpg'; // 画像パス
     img_zawa3.alt = 'ざわ'; // 代替テキスト
     img_zawa3.width = 25; // 横サイズ(px)
     img_zawa3.height = 10; // 縦サイズ(px)
     img_zawa3.className = 'zawa3';
-    img_zawa4.src = 'zawa.jpg'; // 画像パス
+    img_zawa4.src = './img/zawa.jpg'; // 画像パス
     img_zawa4.alt = 'ざわ'; // 代替テキスト
     img_zawa4.width = 25; // 横サイズ(px)
     img_zawa4.height = 10; // 縦サイズ(px)
     img_zawa4.className = 'zawa4';
-    img_zawa5.src = 'zawa.jpg'; // 画像パス
+    img_zawa5.src = './img/zawa.jpg'; // 画像パス
     img_zawa5.alt = 'ざわ'; // 代替テキスト
     img_zawa5.width = 25; // 横サイズ(px)
     img_zawa5.height = 10; // 縦サイズ(px)
     img_zawa5.className = 'zawa5';
-    img_zawa6.src = 'zawa.jpg'; // 画像パス
+    img_zawa6.src = './img/zawa.jpg'; // 画像パス
     img_zawa6.alt = 'ざわ'; // 代替テキスト
     img_zawa6.width = 25; // 横サイズ(px)
     img_zawa6.height = 10; // 縦サイズ(px)
@@ -441,36 +441,36 @@ function draw() {
     let img_zawa6 = document.createElement('img');
     let array = ['draw1.jpg', 'draw2.jpg', 'draw3.jpg', 'draw4.jpg'];
     let draw_img = array[Math.floor(Math.random() * array.length)];
-    img_element.src = draw_img; // 画像パス
+    img_element.src = './img/'+draw_img; // 画像パス
     img_element.alt = '引き分け'; // 代替テキスト
     img_element.width = 165; // 横サイズ（px）
     img_element.height = 130; // 縦サイズ（px）
-    img_zawa.src = 'zawa.jpg'; // 画像パス
+    img_zawa.src = './img/zawa.jpg'; // 画像パス
     img_zawa.alt = 'ざわ'; // 代替テキスト
     img_zawa.width = 25; // 横サイズ(px)
     img_zawa.height = 10; // 縦サイズ(px)
     img_zawa.className = 'zawa';
-    img_zawa2.src = 'zawa.jpg'; // 画像パス
+    img_zawa2.src = './img/zawa.jpg'; // 画像パス
     img_zawa2.alt = 'ざわ'; // 代替テキスト
     img_zawa2.width = 25; // 横サイズ(px)
     img_zawa2.height = 10; // 縦サイズ(px)
     img_zawa2.className = 'zawa2';
-    img_zawa3.src = 'zawa.jpg'; // 画像パス
+    img_zawa3.src = './img/zawa.jpg'; // 画像パス
     img_zawa3.alt = 'ざわ'; // 代替テキスト
     img_zawa3.width = 25; // 横サイズ(px)
     img_zawa3.height = 10; // 縦サイズ(px)
     img_zawa3.className = 'zawa3';
-    img_zawa4.src = 'zawa.jpg'; // 画像パス
+    img_zawa4.src = './img/zawa.jpg'; // 画像パス
     img_zawa4.alt = 'ざわ'; // 代替テキスト
     img_zawa4.width = 25; // 横サイズ(px)
     img_zawa4.height = 10; // 縦サイズ(px)
     img_zawa4.className = 'zawa4';
-    img_zawa5.src = 'zawa.jpg'; // 画像パス
+    img_zawa5.src = './img/zawa.jpg'; // 画像パス
     img_zawa5.alt = 'ざわ'; // 代替テキスト
     img_zawa5.width = 25; // 横サイズ(px)
     img_zawa5.height = 10; // 縦サイズ(px)
     img_zawa5.className = 'zawa5';
-    img_zawa6.src = 'zawa.jpg'; // 画像パス
+    img_zawa6.src = './img/zawa.jpg'; // 画像パス
     img_zawa6.alt = 'ざわ'; // 代替テキスト
     img_zawa6.width = 25; // 横サイズ(px)
     img_zawa6.height = 10; // 縦サイズ(px)
@@ -1674,13 +1674,13 @@ show.addEventListener("click", function(){
 });
 // ベーシックストラテジーの非表示ボタンを押した時
 hide2.addEventListener("click", function(){
-  strategy.src = 'gray.jpg'; // 画像パス
+  strategy.src = './img/gray.jpg'; // 画像パス
   hide2.style.display = 'none'
   show2.style.display = 'inline'
 });
 // ベーシックストラテジーの表示ボタンを押した時
 show2.addEventListener("click", function(){
-  strategy.src = 'strategy.gif'; // 画像パス
+  strategy.src = './img/strategy.gif'; // 画像パス
   show2.style.display = 'none'
   hide2.style.display = 'inline'
 });
